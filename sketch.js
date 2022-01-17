@@ -40,16 +40,10 @@ function preload()
   
   /* Write code after this line*/
 
-        // bk_song = loadSound('sound1.mp3');
-        // sad_sound = loadSound("sad.wav")
-        // cut_sound = loadSound('rope_cut.mp3');
-        // eating_sound = loadSound('eating_sound.mp3');
-        // air = loadSound('air.wav');
+
+
 
   /* Write code before this line*/
-
-  
-
   blink = loadAnimation("blink_1.png","blink_2.png","blink_3.png");
   eat = loadAnimation("eat_0.png" , "eat_1.png","eat_2.png","eat_3.png","eat_4.png");
   sad = loadAnimation("sad_1.png","sad_2.png","sad_3.png");
@@ -70,9 +64,7 @@ function setup() {
   // set the volume to 50%.
   /* Write code after this line*/
   
-      // bk_song.play();
-      // bk_song.setVolume(0.5);
-            
+     
   /* Write code before this line*/
   
 
@@ -144,7 +136,7 @@ function draw()
     // Write code to play the eating sound
     /* Write code after this line*/
   
-      //eating_sound.play();        
+      
 
      /* Write code before this line*/
     
@@ -159,8 +151,7 @@ function draw()
     // Write code to play the sad  sound
     /* Write code after this line*/
       
-        // bk_song.stop();
-        // sad_sound.play();
+       
 
      /* Write code before this line*/
         
@@ -209,7 +200,7 @@ function airblow()
    // Write code to play the air blow sound
    
     /* Write code after this line*/
-          //air.play();
+          
 
      /* Write code before this line*/ 
 }
